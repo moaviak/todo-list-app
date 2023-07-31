@@ -14,7 +14,7 @@ const Option = ({ option, selectOption }) => {
         id={option.text}
         defaultChecked={option.selected}
       />
-      <label htmlFor={option.text} className="ml-3">
+      <label htmlFor={option.text} className="pl-3">
         {option.text}
       </label>
     </div>
